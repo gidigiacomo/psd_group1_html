@@ -29,8 +29,11 @@ header {
   height: 625px;
   display: flex;
   justify-content: center;
+  
 }
-
+#bg-watch {
+  background-image: url("public/images/bgk-middle.png");
+}
 .content {
   width: 100%;
   max-width: 960px;
