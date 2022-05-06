@@ -1,11 +1,70 @@
 * {
   margin: 0;
-
+}
+header {
+  color: white;
+}
+#our_story-section {
+  color: green;
+}
+#watch-section {
+  color: darkred;
+}
+#expertise-section {
+  color: fuchsia;
+}
+#team-section {
+  color: yellowgreen;
+}
+#contact_client-section {
+  color: lightsalmon;
+}
+footer {
+  color: blueviolet;
 }
 
-nav {
-  color: red;
+header {
+  background-image:  url("public/images/bgk-header.png");
+  background-size: cover;
+  height: 625px;
+  display: flex;
+  justify-content: center;
 }
+
+.content {
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+}
+
+#header-content {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header-content nav {
+  width: 100%;
+  max-width: 960px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-logo-title {
+  display: flex;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.main-box  {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  text-align: center;
+}
+
 
 #section {
   width: 100%;
@@ -21,7 +80,6 @@ nav {
 
 #hero-section {
   color: blue;
-
 }
 
 #story-section {
@@ -49,7 +107,7 @@ nav {
 }
 
 .story-para {
-  diplay: flex;
+  display: flex;
   align-content: center;
 }
 
@@ -144,13 +202,13 @@ nav {
 }
 .box-bottom3 {
   border-left: 1px solid black;
-
+}
 
 
 
 
 #team-section {
-  background-image: url("public\images\bgk-header.png")
+  background-image: url("public\images\bgk-header.png");
   color: yellowgreen;
 }
 
@@ -162,4 +220,3 @@ footer {
   height: 380px;
   background-image: url('./public/images/bgk-footer.png/')
 }
-background-image: url('./public/images/bgk-header.png');
